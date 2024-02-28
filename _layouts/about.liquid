@@ -15,6 +15,8 @@ layout: default
   </header>
 
   <article>
+
+    {% comment %}
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -37,6 +39,9 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
+  {% endcomment %}
+
+    {% include carousel.liquid height="70" unit="%" duration="7" %}
 
     <div class="clearfix">{{ content }}</div>
 
