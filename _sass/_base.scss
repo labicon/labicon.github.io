@@ -1141,3 +1141,21 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+
+
+// logo-h1 side by side
+
+.logo-header img {
+  float: left;
+  //width: 100px;
+  //height: 100px;
+  //background: #555;
+}
+
+.logo-header h1 {
+  position: relative;
+  top: -8px;
+  left: 20px;
+  font-size: 3.4rem;
+}
