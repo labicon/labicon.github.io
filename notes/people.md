@@ -20,9 +20,9 @@ Just look at the above information on how to add a new person, and it will be cl
 
 In [/_pages/profiles.md](/_pages/profiles.md), find the `categories` list, and add a new category. `list_name` should exactly match the list that follows containing people in that category, and `show_name` is the title that is shown for that category. Then, you should add a list containing people. See the list `grad` as an example. 
 
-# How to change the size of profile pictures?
+# 3How to change the size of profile pictures?
 
-In the file [](/_layouts/profiles.liquid), line 22 which is
+In the file [/_layouts/profiles.liquid](/_layouts/profiles.liquid), line 22 which is
 
 ```liquid
 {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 20vw, 95vw"{% endcapture %}
@@ -34,7 +34,7 @@ change the `20vw` part to change the width of images. `vw` means `viewport width
 
 Details to stuff to remember for future. 
 
-The main thing is [](/_layouts/profiles.liquid). I modified it from the default for our purpose. Here is the content of the file:
+The main thing is [/_layouts/profiles.liquid](/_layouts/profiles.liquid). I modified it from the default for our purpose. Here is the content of the file:
 
 ```liquid
 ---
