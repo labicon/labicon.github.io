@@ -1,0 +1,1 @@
+Kanghyun is a graduate student in the Mechanical Engineering department at UC Berkeley. He received his B.S in Aerospace Engineering at Seoul National University in 2022. His current research interests lie in optimal control, machine learning, robotics, and their intersection for safe learning and operation of autonomous systems.

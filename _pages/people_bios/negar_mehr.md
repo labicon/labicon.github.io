@@ -1,0 +1,1 @@
+Negar is an assistant professor in the Mechanical Engineering department at UC Berkeley. The focus of her research is to develop control algorithms that allow autonomous systems to safely and intelligently interact with each other and with humans.
