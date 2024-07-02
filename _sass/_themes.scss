@@ -39,6 +39,14 @@
     display: block;
   }
 
+  .light-logo {
+    display: block;
+  }
+
+  .dark-logo {
+    display: none;
+  }
+
   .repo-img-light {
     display: block;
   }
@@ -82,6 +90,14 @@ html[data-theme="dark"] {
   }
   .fa-moon {
     display: none;
+  }
+
+  .light-logo {
+    display: none;
+  }
+
+  .dark-logo {
+    display: block;
   }
 
   .repo-img-light {

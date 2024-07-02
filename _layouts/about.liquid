@@ -11,7 +11,12 @@ layout: default
           {{ site.last_name }}
         {%endcomment  %}
         <div class="logo-header">
-          <img  src="{{ page.profile.logo | prepend: '/assets/img/' | relative_url }}" width="160">
+          <div class="light-logo">
+            <img  src="{{ page.profile.logo | prepend: '/assets/img/' | relative_url }}" width="160">
+          </div>
+          <div class="dark-logo">
+            <img  src="{{ page.profile.logodark | prepend: '/assets/img/' | relative_url }}" width="160">
+          </div>
           <h1>Lab</h1>
         </div>
       {% else %}
