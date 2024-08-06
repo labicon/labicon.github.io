@@ -17,8 +17,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-<!-- _pages/projectspage.md -->
-<div class="projectspage">
+<!-- _pages/projects.md -->
+<div class="projects">
   {% assign blog_name_size = site.blog_name | size %}
   {% assign blog_description_size = site.blog_description | size %}
 
@@ -156,13 +156,6 @@ pagination:
                   {% endfor %}
               {% endif %}
           </p>
-          <!-- {% if post.thumbnail %}
-          </div>
-            <div class="col-sm-3">
-              <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
-            </div>
-          </div>
-          {% endif %} -->
         </li>
       {% endfor %}
     </ul>
