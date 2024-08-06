@@ -5,17 +5,17 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        {%comment%}
+        {% comment %}
           Commented the standard first name / last name
           <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
           {{ site.last_name }}
-        {%endcomment  %}
+        {% endcomment  %}
         <div class="logo-header">
           <div class="light-logo">
-            <img  src="{{ page.profile.logo | prepend: '/assets/img/' | relative_url }}" width="160">
+            <img src="{{ page.profile.logo | prepend: '/assets/img/' | relative_url }}" width="160">
           </div>
           <div class="dark-logo">
-            <img  src="{{ page.profile.logodark | prepend: '/assets/img/' | relative_url }}" width="160">
+            <img src="{{ page.profile.logodark | prepend: '/assets/img/' | relative_url }}" width="160">
           </div>
           <h1>Lab</h1>
         </div>
@@ -28,7 +28,7 @@ layout: default
 
   <article>
 
-    {% comment %}
+  {% comment %}
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}

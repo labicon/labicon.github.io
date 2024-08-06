@@ -4,33 +4,33 @@
 
 // Typography
 
-p{
-  font-family:  'Latin Modern';
+p {
+  font-family: "Latin Modern";
   font-size: 1.1rem;
 }
 
-h1{
-  font-family:  'Latin Modern';
+h1 {
+  font-family: "Latin Modern";
 }
-h2{
-  font-family:  'Latin Modern';
+h2 {
+  font-family: "Latin Modern";
 }
-h3{
-  font-family:  'Latin Modern';
+h3 {
+  font-family: "Latin Modern";
 }
-h4{
-  font-family:  'Latin Modern';
+h4 {
+  font-family: "Latin Modern";
 }
-h5{
-  font-family:  'Latin Modern';
+h5 {
+  font-family: "Latin Modern";
 }
-h6{
-  font-family:  'Latin Modern';
+h6 {
+  font-family: "Latin Modern";
 }
 em,
 div,
-li{
-  font-family:  'Latin Modern';
+li {
+  font-family: "Latin Modern";
 }
 span,
 strong {
@@ -42,14 +42,13 @@ hr {
 }
 
 table {
-  td{
-    font-family: 'Latin Modern';
+  td {
+    font-family: "Latin Modern";
   }
   th {
-    font-family: 'Latin Modern';
+    font-family: "Latin Modern";
     font-size: 1rem;
   }
-
   th {
     font-weight: bold;
   }
@@ -136,7 +135,6 @@ blockquote {
     p {
       color: var(--global-danger-block-text);
     }
-
     h1,
     h2,
     h3,
@@ -149,7 +147,6 @@ blockquote {
 }
 
 // Checklist
-
 ul.task-list {
   list-style-type: none; /* Remove bullets from all levels */
 }
@@ -165,14 +162,12 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Math
-
 .equation {
   margin-bottom: 1rem;
   text-align: center;
 }
 
 // Caption
-
 .caption {
   font-size: 0.875rem;
   margin-top: 0.75rem;
@@ -181,7 +176,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Card
-
 .card {
   background-color: var(--global-card-bg-color);
 
@@ -205,14 +199,12 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Citation
-
 .citation,
 .citation-number {
   color: var(--global-theme-color);
 }
 
 // Profile
-
 .profile {
   width: 100%;
 
@@ -264,7 +256,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Navbar customization
-
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
@@ -304,24 +295,21 @@ ul.task-list input[type="checkbox"] {
       text-decoration: none;
     }
   }
-
   .navbar-brand {
     color: var(--global-text-color);
   }
-
+  
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-
     &:hover {
       color: var(--global-hover-color);
     }
   }
-
+  
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
-
     &:hover {
       color: var(--global-hover-color);
     }
@@ -331,7 +319,6 @@ ul.task-list input[type="checkbox"] {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.7rem;
-
     a {
       i::before {
         color: var(--global-text-color);
@@ -399,19 +386,15 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Social (bottom)
-
 .social {
   text-align: center;
-
   .contact-icons {
     font-size: 2rem;
-
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
-
       &:hover {
         i::before {
           color: var(--global-theme-color);
@@ -419,7 +402,6 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
-
   .contact-note {
     font-size: 0.8rem;
   }
@@ -459,17 +441,14 @@ ul.task-list input[type="checkbox"] {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
-
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
   }
-
   a {
     color: var(--global-footer-link-color);
-
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -489,18 +468,15 @@ footer.sticky-bottom {
 }
 
 // CV
-
 .cv {
   margin-bottom: 40px;
 
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
-
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
@@ -516,7 +492,6 @@ footer.sticky-bottom {
 }
 
 // Repositories
-
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
@@ -524,7 +499,6 @@ footer.sticky-bottom {
 }
 
 // Blog
-
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -545,7 +519,6 @@ footer.sticky-bottom {
   ul {
     justify-content: center;
     display: flow-root;
-
     p,
     li {
       list-style: none;
@@ -566,13 +539,11 @@ footer.sticky-bottom {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
-
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
-
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
@@ -589,7 +560,6 @@ footer.sticky-bottom {
     a {
       color: var(--global-text-color);
       text-decoration: none;
-
       &:hover {
         color: var(--global-theme-color);
       }
@@ -605,7 +575,6 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
-
       &:hover {
         color: $black-color;
       }
@@ -614,7 +583,6 @@ footer.sticky-bottom {
     &.active .page-link {
       color: $white-color;
       background-color: var(--global-theme-color);
-
       &:hover {
         background-color: var(--global-theme-color);
       }
@@ -623,7 +591,6 @@ footer.sticky-bottom {
 }
 
 // Distill
-
 .distill {
   a:hover {
     border-bottom-color: var(--global-theme-color);
@@ -632,11 +599,9 @@ footer.sticky-bottom {
 }
 
 // Projects
-
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-theme-color);
@@ -653,7 +618,6 @@ footer.sticky-bottom {
   .card-item {
     width: auto;
     margin-bottom: 10px;
-
     .row {
       display: flex;
       align-items: center;
@@ -677,9 +641,8 @@ footer.sticky-bottom {
 }
 
 // Publications
-
 .publications {
-  font-family:  'Latin Modern';
+  font-family: "Latin Modern";
   margin-top: 2rem;
 
   h1 {
@@ -692,7 +655,6 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
-
     span {
       font-size: 1.5rem;
     }
@@ -714,32 +676,26 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
       .preview {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
       }
-
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
-
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
-
           a {
             color: white;
-
             &:hover {
               text-decoration: none;
             }
           }
         }
-
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
@@ -753,7 +709,6 @@ footer.sticky-bottom {
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
-
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
@@ -769,7 +724,6 @@ footer.sticky-bottom {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
-
           &:hover {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
@@ -786,7 +740,6 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
-
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -802,7 +755,6 @@ footer.sticky-bottom {
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
-
           &:hover {
             text-decoration: underline;
           }
@@ -819,12 +771,10 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
-
         p {
           line-height: 1.4em;
           margin: 10px;
         }
-
         pre {
           font-size: 1em;
           line-height: 1.4em;
@@ -840,11 +790,9 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
-
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
-
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
@@ -862,7 +810,6 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-
   pre,
   code {
     background-color: transparent;
@@ -895,17 +842,14 @@ html.transition *:after {
     font-size: 0.875rem;
     margin-bottom: 0;
   }
-
   .post-tags {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
-
     a {
       color: var(--global-text-color-light);
       text-decoration: none;
-
       &:hover {
         color: var(--global-theme-color);
       }
@@ -998,19 +942,15 @@ progress::-moz-progress-bar {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
-
   .btn-secondary.dropdown-toggle {
     border: 1px solid var(--global-divider-color);
-
     .page-size {
       color: inherit;
     }
-
     &:not(.active) {
       background-color: var(--global-bg-color) !important;
       color: var(--global-text-color);
     }
-
     &:hover {
       background-color: var(--global-hover-color) !important;
       color: var(--global-hover-text-color) !important;
@@ -1024,7 +964,6 @@ progress::-moz-progress-bar {
   .dropdown-item {
     background-color: var(--global-bg-color);
     color: var(--global-text-color);
-
     &:hover {
       color: var(--global-hover-color);
     }
@@ -1034,7 +973,6 @@ progress::-moz-progress-bar {
   .dropdown-item:active {
     background-color: var(--global-hover-color);
     color: var(--global-hover-text-color) !important;
-
     &:hover {
       color: var(--global-hover-text-color);
     }
@@ -1044,15 +982,12 @@ progress::-moz-progress-bar {
 /* Table of Contents */
 nav[data-toggle="toc"] {
   top: 5rem;
-
   .nav .nav > li > a {
     font-size: 0.75rem;
   }
-
   .nav > li > a {
     color: var(--global-text-color);
     font-size: 0.75rem;
-
     &:hover {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
@@ -1063,7 +998,6 @@ nav[data-toggle="toc"] {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
     font-size: 0.75rem;
-
     &:hover {
       color: var(--global-hover-color);
       border-left-color: var(--global-hover-color);
@@ -1085,16 +1019,13 @@ nav[data-toggle="toc"] {
   a {
     color: var(--global-text-color-light);
     text-decoration: none;
-
     .card-text {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-
     &:hover {
       color: var(--global-theme-color);
-
       .card-title {
         color: var(--global-theme-color);
       }
@@ -1145,7 +1076,6 @@ swiper-container {
 
 
 // logo-h1 side by side
-
 .logo-header img {
   float: left;
   //width: 100px;

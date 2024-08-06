@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -21,4 +21,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-The Berkeley Intelligent Control (ICON) lab develops algorithms for autonomous systems to interact with other agents safely and intelligently. Our goal is to enable autonomous systems to become integrated into the fabric of human life and act in the favor of society. To this end, we draw from control theory, game theory, robotics, and machine learning. 
+The Berkeley Intelligent Control (ICON) lab develops algorithms for autonomous systems to interact with other agents safely and intelligently. Our goal is to enable autonomous systems to become integrated into the fabric of human life and act in the favor of society. To this end, we draw from control theory, game theory, robotics, and machine learning.

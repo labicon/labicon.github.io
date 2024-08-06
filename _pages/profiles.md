@@ -2,10 +2,9 @@
 layout: profiles
 permalink: /people/
 title: people
-description: 
+description:
 nav: true
 nav_order: 7
-
 
 categories:
   - list_name: faculty

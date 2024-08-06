@@ -1,10 +1,10 @@
-  images:
-    - image: /assets/img/carousel/2024-03-11_ICON_Berkeley_Group.jpg
-    - image: /assets/img/carousel/2022-12-07_ICON_group-photo.jpg
-    - image: /assets/img/carousel/2022-4-group-photo.jpeg
-    - image: /assets/img/carousel/2022-4-group-discussion.jpeg
-    - image: /assets/img/carousel/2022-4-drone.jpeg
-    - image: /assets/img/carousel/2021-09_group_reduced.jpg
-    - image: /assets/img/carousel/2021-10-17_group.jpg
+images:
+  - image: /assets/img/carousel/2024-03-11_ICON_Berkeley_Group.jpg
+  - image: /assets/img/carousel/2022-12-07_ICON_group-photo.jpg
+  - image: /assets/img/carousel/2022-4-group-photo.jpeg
+  - image: /assets/img/carousel/2022-4-group-discussion.jpeg
+  - image: /assets/img/carousel/2022-4-drone.jpeg
+  - image: /assets/img/carousel/2021-09_group_reduced.jpg
+  - image: /assets/img/carousel/2021-10-17_group.jpg
 
 

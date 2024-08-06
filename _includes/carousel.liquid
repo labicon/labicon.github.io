@@ -4,42 +4,42 @@
 {% assign letters = letterstring | split: ',' %}
 
 <div class="carousel__holder">
-    <div class="carousel">
+  <div class="carousel">
+    {% for item in site.data.carousel.images %}
+      <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+    {% endfor %}
+    {% for item in site.data.carousel.images %}
+      <p> a </p>
+      {% if forloop.index == forloop.length %}
+        {% assign nextindex = 0 %}
+      {% else %}
+        {% assign nextindex = forloop.index0 | plus: 1 %}
+      {% endif %}
+      {% assign nextletter = letters[nextindex] %}
+      {% if forloop.index0 == 0 %}
+        {% assign previndex = forloop.length | minus: 1 %}
+      {% else %}
+        {% assign previndex = forloop.index0 | minus: 1 %}
+      {% endif %}
+      {% assign prevletter = letters[previndex] %}
+      <div class="carousel__controls">
+          <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
+          <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
+      </div>
+    {% endfor %}
+    <div class="carousel__track">
+      <ul>
         {% for item in site.data.carousel.images %}
-          <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+        <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
         {% endfor %}
-        {% for item in site.data.carousel.images %}
-          <p> a </p>
-          {% if forloop.index == forloop.length %}
-            {% assign nextindex = 0 %}
-          {% else %}
-            {% assign nextindex = forloop.index0 | plus: 1 %}
-          {% endif %}
-          {% assign nextletter = letters[nextindex] %}
-          {% if forloop.index0 == 0 %}
-            {% assign previndex = forloop.length | minus: 1 %}
-          {% else %}
-            {% assign previndex = forloop.index0 | minus: 1 %}
-          {% endif %}
-          {% assign prevletter = letters[previndex] %}
-          <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
-              <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
-          </div>
-        {% endfor %}
-        <div class="carousel__track">
-          <ul>
-            {% for item in site.data.carousel.images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="carousel__indicators">
-            {% for item in site.data.carousel.images %}
-              <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
-            {% endfor %}
-        </div>
+      </ul>
     </div>
+    <div class="carousel__indicators">
+        {% for item in site.data.carousel.images %}
+          <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+        {% endfor %}
+    </div>
+  </div>
 </div>
 
 <style>
@@ -183,40 +183,40 @@
 </style>
 
 <script>
-  function isVisible(el) {
-        while (el) {
-            if (el === document) {
-                return true;
-            }
+function isVisible(el) {
+  while (el) {
+      if (el === document) {
+          return true;
+      }
 
-            var $style = window.getComputedStyle(el, null);
+      var $style = window.getComputedStyle(el, null);
 
-            if (!el) {
-                return false;
-            } else if (!$style) {
-                return false;
-            } else if ($style.display === 'none') {
-                return false;
-            } else if ($style.visibility === 'hidden') {
-                return false;
-            } else if (+$style.opacity === 0) {
-                return false;
-            } else if (($style.display === 'block' || $style.display === 'inline-block') &&
-                $style.height === '0px' && $style.overflow === 'hidden') {
-                return false;
-            } else {
-                return $style.position === 'fixed' || isVisible(el.parentNode);
-            }
-        }
+      if (!el) {
+          return false;
+      } else if (!$style) {
+          return false;
+      } else if ($style.display === 'none') {
+          return false;
+      } else if ($style.visibility === 'hidden') {
+          return false;
+      } else if (+$style.opacity === 0) {
+          return false;
+      } else if (($style.display === 'block' || $style.display === 'inline-block') &&
+          $style.height === '0px' && $style.overflow === 'hidden') {
+          return false;
+      } else {
+          return $style.position === 'fixed' || isVisible(el.parentNode);
+      }
   }
-  {% if include.duration %}
-  setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('.carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
-    }
-    elements[j].click();
-  },{{ include.duration }}000);
-  {% endif %}
+}
+{% if include.duration %}
+setInterval(function(){
+  var j=0;
+  var elements = document.querySelectorAll('.carousel__control--forward');
+  for(i=(elements.length - 1);i>-1;i--) {
+    if(isVisible(elements[i])) j=i;
+  }
+  elements[j].click();
+},{{ include.duration }}000);
+{% endif %}
 </script>
