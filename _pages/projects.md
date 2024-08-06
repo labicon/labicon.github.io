@@ -131,23 +131,22 @@ pagination:
           </h3>
           <p>{{ post.description }}</p>
           <p class="post-meta">
-            {{ read_time }} min read &nbsp; &middot; &nbsp;
+            {{ read_time }} min read &middot;
             {{ post.date | date: '%B %d, %Y' }}
             {% if post.external_source %}
-            &nbsp; &middot; &nbsp; {{ post.external_source }}
+            &middot; {{ post.external_source }}
             {% endif %}
-            &nbsp; &middot; &nbsp;
-            <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+            &middot; <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
               <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
               {% if tags != "" %}
-              &nbsp; &middot; &nbsp;
+              &middot;
                 {% for tag in post.tags %}
-                <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+                  <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
                   <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-                  {% endfor %}
+                {% endfor %}
               {% endif %}
-          </p>
-        </li>
+            </p>
+          </li>
       {% endfor %}
     </ul>
   {% if page.pagination.enabled %}
