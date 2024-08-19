@@ -4,7 +4,7 @@ permalink: /projects/
 title: projects
 description: 
 nav: true
-nav_order: 5
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
