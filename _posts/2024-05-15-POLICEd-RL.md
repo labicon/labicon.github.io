@@ -2,7 +2,7 @@
 layout: post
 title: POLICEd RL Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard Constraints
 date: 2024-05-15 12:20:00
-description: A page describing our recent RSS Paper
+description: In Robotics Science and Systems (RSS), 2024
 tags: RSS, Safe-RL, Constraint-Satisfaction, Black-Box, POLICEd-RL
 categories: paper-posts
 thumbnail: assets/img/publication_preview/POLICEd_RL_gif.gif

@@ -2,7 +2,7 @@
 layout: post
 title: Learning to Provably Satisfy High Relative Degree Constraints for Black-Box Systems
 date: 2024-07-24 12:20:00
-description: A page describing our recent CDC Paper
+description: In Conference on Decision and Control (CDC), 2024
 tags: CDC, Safe-RL, Constraint-Satisfaction, Black-Box, POLICEd-RL
 categories: paper-posts
 thumbnail: assets/img/publication_preview/POLICEd_shuttle.gif
