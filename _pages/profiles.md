@@ -46,4 +46,9 @@ grad:
     web: https://kartik-nagpal.github.io/
     image: profile_pics/Kartik-photo.png
     content: people_bios/kartik_nagpal.md
+  - align: left
+    name: Aayushi Shrivastava
+    web: https://sites.google.com/view/aayushishrivastava/home
+    image: profile_pics/Aayushi-photo.png
+    content: people_bios/aayushi_shrivastava.md
 ---
