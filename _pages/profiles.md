@@ -51,4 +51,9 @@ grad:
     web: https://sites.google.com/view/aayushishrivastava/home
     image: profile_pics/Aayushi-photo.png
     content: people_bios/aayushi_shrivastava.md
+  - align: left
+    name: Dayi Ethan Dong
+    web: http://dayiethandong.com/
+    image: profile_pics/Ethan.png
+    content: people_bios/dayi_dong.md
 ---
