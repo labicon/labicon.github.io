@@ -56,4 +56,9 @@ grad:
     web: http://dayiethandong.com/
     image: profile_pics/Ethan.png
     content: people_bios/dayi_dong.md
+  - align: left
+    name: Seoyeon Choi
+    web: https://www.linkedin.com/in/seoyeonchoi99/
+    image: profile_pics/Choi-Seoyeon.png
+    content: people_bios/seoyeon_choi.md
 ---
