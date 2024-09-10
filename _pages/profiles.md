@@ -58,7 +58,7 @@ grad:
     content: people_bios/dayi_dong.md
   - align: left
     name: Seoyeon Choi
-    web: https://www.linkedin.com/in/seoyeonchoi99/
+    web: https://sites.google.com/yonsei.ac.kr/seoyeon-choi-home/
     image: profile_pics/Choi-Seoyeon.png
     content: people_bios/seoyeon_choi.md
 ---
