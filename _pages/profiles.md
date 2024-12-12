@@ -51,4 +51,18 @@ grad:
     web: https://sites.google.com/view/aayushishrivastava/home
     image: profile_pics/Aayushi-photo.png
     content: people_bios/aayushi_shrivastava.md
+  - align: left
+    name: Dayi Ethan Dong
+    web: http://dayiethandong.com/
+    image: profile_pics/Ethan.png
+    content: people_bios/dayi_dong.md
+  - align: left
+    name: Seoyeon Choi
+    web: https://sites.google.com/yonsei.ac.kr/seoyeon-choi-home/
+    image: profile_pics/Choi-Seoyeon.png
+    content: people_bios/seoyeon_choi.md
+  - align: left
+    name: Hongrui Zhao
+    image: profile_pics/HongruiZhao.png
+    content: people_bios/Hongrui_Zhao.md  
 ---

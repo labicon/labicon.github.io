@@ -1,0 +1,1 @@
+Seoyeon Choi is a PhD Student in Mechanical Engineering at University of California, Berkeley. She received B.S. in Mechanical Engineering from Yonsei University in South Korea where she worked on MPCs and RL for autonomous driving and contact-rich manipulation. Her current research interests lie in machine learning, optimal control, manipulation, and multi-agent systems.
