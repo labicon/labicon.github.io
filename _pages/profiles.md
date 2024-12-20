@@ -63,6 +63,6 @@ grad:
     content: people_bios/seoyeon_choi.md
   - align: left
     name: Hongrui Zhao
-    image: profile_pics/HongruiZhao.png
+    image: profile_pics/HongruiZhao.jpg
     content: people_bios/Hongrui_Zhao.md  
 ---
