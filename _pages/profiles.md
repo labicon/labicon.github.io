@@ -59,7 +59,7 @@ grad:
   - align: left
     name: Seoyeon Choi
     web: https://sites.google.com/yonsei.ac.kr/seoyeon-choi-home/
-    image: profile_pics/Choi-Seoyeon.png
+    image: profile_pics/Seoyeon.jpg
     content: people_bios/seoyeon_choi.md
   - align: left
     name: Hongrui Zhao
