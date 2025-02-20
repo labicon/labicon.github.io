@@ -13,6 +13,8 @@ categories:
     show_name: Postdocs
   - list_name: grad
     show_name: Graduate Students
+  - list_name: visiting_students
+    show_name: Visiting Students 
 
 faculty:
   - align: left
@@ -64,5 +66,12 @@ grad:
   - align: left
     name: Hongrui Zhao
     image: profile_pics/HongruiZhao.jpg
-    content: people_bios/Hongrui_Zhao.md  
+    content: people_bios/Hongrui_Zhao.md
+
+visiting_students:
+  - align: left
+    name: Antoine Bergerault
+    web: https://bergerault.fr
+    image: profile_pics/antoine.jpeg
+    content: people_bios/antoine_bergerault.md
 ---
