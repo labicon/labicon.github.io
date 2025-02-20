@@ -1,0 +1,1 @@
+Antoine is a visiting student in the Mechanical Engineering department at UC Berkeley. He is interested in game theory, optimization and machine learning for multi-agent systems. He received his BSc in Communication Systems from EPFL, and is currently pursuing a MSc of Data Science from the same institution as an Excellence Fellow.
