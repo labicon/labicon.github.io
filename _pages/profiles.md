@@ -56,7 +56,7 @@ grad:
   - align: left
     name: Dayi Ethan Dong
     web: http://dayiethandong.com/
-    image: profile_pics/Ethan.JPG
+    image: profile_pics/Ethan.jpg
     content: people_bios/dayi_dong.md
   - align: left
     name: Seoyeon Choi
