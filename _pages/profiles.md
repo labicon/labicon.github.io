@@ -15,6 +15,8 @@ categories:
     show_name: Graduate Students
   - list_name: visiting_students
     show_name: Visiting Students 
+  - list_name: robots
+    show_name: Lab Robots
 
 faculty:
   - align: left
@@ -74,4 +76,34 @@ visiting_students:
     web: https://bergerault.fr
     image: profile_pics/antoine.jpeg
     content: people_bios/antoine_bergerault.md
+
+robots:
+  - align: left
+    name: Milou
+    image: robot_pics/milou.jpg
+    content: robot_bios/milou.md
+  - align: left
+    name: Finot
+    image: robot_pics/finot.jpg
+    content: robot_bios/finot.md
+  - align: left
+    name: harry
+    image: robot_pics/harry.jpg
+    content: robot_bios/harry.md
+  - align: left
+    name: larry
+    image: robot_pics/larry.jpg
+    content: robot_bios/larry.md
+  - align: left
+    name: oogway
+    image: robot_pics/oogway.jpg
+    content: robot_bios/oogway.md
+  - align: left
+    name: miriel
+    image: robot_pics/miriel.jpg
+    content: robot_bios/miriel.md
+  - align: left
+    name: goblin_glider
+    image: robot_pics/goblin_glider.jpg
+    content: robot_bios/goblin_glider.md
 ---
