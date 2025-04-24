@@ -87,23 +87,24 @@ robots:
     image: robot_pics/finot.jpg
     content: robot_bios/finot.md
   - align: left
-    name: harry
+    name: Harry
     image: robot_pics/harry.jpg
     content: robot_bios/harry.md
   - align: left
-    name: larry
+    name: Larry
     image: robot_pics/larry.jpg
     content: robot_bios/larry.md
   - align: left
-    name: oogway
+    name: Goblin Glider
+    image: robot_pics/goblin_glider.jpg
+    content: robot_bios/goblin_glider.md
+  - align: left
+    name: Oogway
     image: robot_pics/oogway.jpg
     content: robot_bios/oogway.md
   - align: left
-    name: miriel
+    name: Miriel
     image: robot_pics/miriel.jpg
     content: robot_bios/miriel.md
-  - align: left
-    name: goblin_glider
-    image: robot_pics/goblin_glider.jpg
-    content: robot_bios/goblin_glider.md
+
 ---
