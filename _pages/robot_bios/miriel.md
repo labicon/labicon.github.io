@@ -1,1 +1,1 @@
-Miriel
+Miriel is also a TurtleBot 4, and is named after the huge silver tortoise wearing a mitre in the hit game "Elden Ring".
