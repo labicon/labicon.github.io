@@ -30,7 +30,7 @@
     <div class="carousel__track">
       <ul>
         {% for item in site.data.carousel.images %}
-        <li class="carousel__slide" style="background-image: url('{{ item.image }}'); font-size: 15pt; color: white; text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;">item.label</li>
+        <li class="carousel__slide" style="background-image: url('{{ item.image }}'); font-size: 15pt; color: white; text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;">{{ item.label }}</li>
         {% endfor %}
       </ul>
     </div>
