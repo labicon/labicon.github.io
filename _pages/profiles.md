@@ -69,6 +69,11 @@ grad:
     name: Hongrui Zhao
     image: profile_pics/HongruiZhao.jpg
     content: people_bios/Hongrui_Zhao.md
+  - align: left
+    name: Ryan Park
+    web: https://ryanjpark03.github.io
+    image: profile_pics/ryan_park.jpg
+    content: people_bios/ryan_park.md
 
 visiting_students:
   - align: left
