@@ -74,6 +74,11 @@ grad:
     web: https://ryanjpark03.github.io
     image: profile_pics/ryan_park.jpg
     content: people_bios/ryan_park.md
+  - align: left
+    name: Marfred Barrera
+    web: https://marfredbarrera.github.io/
+    image: profile_pics/Marfred.jpg
+    content: people_bios/marfred_barrera.md
 
 visiting_students:
   - align: left
