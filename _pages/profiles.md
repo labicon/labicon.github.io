@@ -9,12 +9,12 @@ nav_order: 7
 categories:
   - list_name: faculty
     show_name: Faculty
-  - list_name: postdoc
-    show_name: Postdocs
+  # - list_name: postdoc
+  #   show_name: Postdocs
   - list_name: grad
     show_name: Graduate Students
-  - list_name: visiting_students
-    show_name: Visiting Students 
+  # - list_name: visiting_students
+  #   show_name: Visiting Students 
   - list_name: alumni
     show_name: Alumni
   - list_name: robots
@@ -127,9 +127,11 @@ robots:
 
 test:
   - align: left
-    name: First Student 
+    name: First Student
+    content: people_bios/placeholder.md
   - align: left
-    name: Second Student 
+    name: Second Student
+    content: people_bios/placeholder.md
   
 
 ---
