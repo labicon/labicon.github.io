@@ -1,5 +1,8 @@
 images:
-  - image: assets/img/carousel/2025-04-28_Negar-Birthday.jpg
+  - image: assets/img/carousel/2025-09-03_Group_Photo.jpg
+    label: "Fall 2025"
+  
+  - image: assets/img/carousel/2025-04-28_Negar_Birthday.jpg
     label: "Spring 2025"
 
   - image: /assets/img/carousel/2024-08-28_ICON_Lab_Photo.jpg
@@ -11,7 +14,7 @@ images:
   - image: /assets/img/carousel/2024-03-11_ICON_Berkeley_Group.jpg
     label: "Spring 2024"
 
-  - image: /assets/img/carousel/2022-12-07_ICON_group-photo.jpg
+  - image: /assets/img/carousel/2022-12-07_ICON_Group_Photo.jpg
     label: "Fall 2022"
     
   # - image: /assets/img/carousel/2022-4-group-photo.jpeg

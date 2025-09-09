@@ -15,8 +15,12 @@ categories:
     show_name: Graduate Students
   - list_name: visiting_students
     show_name: Visiting Students 
+  - list_name: alumni
+    show_name: Alumni
   - list_name: robots
     show_name: Lab Robots
+  - list_name: Undergrads
+    show_name: Test
 
 faculty:
   - align: left
@@ -27,12 +31,7 @@ faculty:
     image_circular: false # crops the image to make it circular
     more_info:
 
-postdoc:
-  - align: left
-    name: Jean-Baptiste Bouvier
-    web: https://jean-baptistebouvier.github.io/
-    image: profile_pics/JB_pic.png
-    content: people_bios/jb_bouvier.md
+# postdoc:
 
 grad:
   - align: left
@@ -80,12 +79,21 @@ grad:
     image: profile_pics/Marfred.jpg
     content: people_bios/marfred_barrera.md
 
-visiting_students:
+# visiting_students:
+
+alumni:
+  - align: left
+    name: Jean-Baptiste Bouvier
+    web: https://jean-baptistebouvier.github.io/
+    image: profile_pics/JB_pic.png
+    content: people_bios/jb_bouvier.md
+  
   - align: left
     name: Antoine Bergerault
     web: https://bergerault.fr
     image: profile_pics/antoine.jpeg
     content: people_bios/antoine_bergerault.md
+
 
 robots:
   - align: left
@@ -116,5 +124,12 @@ robots:
     name: Miriel
     image: robot_pics/miriel.jpg
     content: robot_bios/miriel.md
+
+test:
+  - align: left
+    name: First Student 
+  - align: left
+    name: Second Student 
+  
 
 ---
