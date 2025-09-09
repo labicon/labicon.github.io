@@ -127,11 +127,7 @@ robots:
 
 test:
   - align: left
-    name: First Student
-    content: people_bios/placeholder.md
-  - align: left
-    name: Second Student
-    content: people_bios/placeholder.md
-  
+    name: Fall 2025 Students
+    content: undergrad_lists/Fall_2025.md
 
 ---
