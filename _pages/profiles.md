@@ -15,12 +15,13 @@ categories:
     show_name: Graduate Students
   # - list_name: visiting_students
   #   show_name: Visiting Students 
+  # - list_name: undergrads
+  #   show_name: Undergrads
   - list_name: alumni
     show_name: Alumni
   - list_name: robots
     show_name: Lab Robots
-  - list_name: undergrads
-    show_name: Undergrads
+  
 
 faculty:
   - align: left
@@ -81,17 +82,27 @@ grad:
 
 # visiting_students:
 
+
+# undergrads:
+#   # - align: left
+#   #   name: Fall 2025
+#   #   content: undergrad_lists/Fall_2025.md
+#   - align: left
+#     name: Summer 2025
+#     content: undergrad_lists/Summer_2025.md
+  
+
 alumni:
   - align: left
     name: Jean-Baptiste Bouvier
     web: https://jean-baptistebouvier.github.io/
-    image: profile_pics/JB_pic.png
+    # image: profile_pics/JB_pic.png
     content: people_bios/jb_bouvier.md
   
   - align: left
     name: Antoine Bergerault
     web: https://bergerault.fr
-    image: profile_pics/antoine.jpeg
+    # image: profile_pics/antoine.jpeg
     content: people_bios/antoine_bergerault.md
 
 
@@ -124,10 +135,5 @@ robots:
     name: Miriel
     image: robot_pics/miriel.jpg
     content: robot_bios/miriel.md
-
-undergrads:
-  - align: left
-    name: Fall 2025 Students
-    content: undergrad_lists/Fall_2025.md
 
 ---
