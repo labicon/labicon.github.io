@@ -19,8 +19,8 @@ categories:
     show_name: Alumni
   - list_name: robots
     show_name: Lab Robots
-  - list_name: Undergrads
-    show_name: Test
+  - list_name: undergrads
+    show_name: Undergrads
 
 faculty:
   - align: left
@@ -125,7 +125,7 @@ robots:
     image: robot_pics/miriel.jpg
     content: robot_bios/miriel.md
 
-test:
+undergrads:
   - align: left
     name: Fall 2025 Students
     content: undergrad_lists/Fall_2025.md
