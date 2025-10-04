@@ -94,7 +94,7 @@ grad:
 
 alumni:
   - align: left
-    name: Jean-Baptiste Bouvier
+    name: Jean-Baptiste Bouvier, Woven by Toyota, 2025
     web: https://jean-baptistebouvier.github.io/
     # image: profile_pics/JB_pic.png
     content: people_bios/jb_bouvier.md
