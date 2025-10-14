@@ -100,7 +100,7 @@ alumni:
     content: people_bios/jb_bouvier.md
   
   - align: left
-    name: Antoine Bergerault
+    name: Antoine Bergerault, University of Zurich, 2025
     web: https://bergerault.fr
     # image: profile_pics/antoine.jpeg
     content: people_bios/antoine_bergerault.md
