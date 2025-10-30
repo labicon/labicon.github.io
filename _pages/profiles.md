@@ -13,8 +13,8 @@ categories:
   #   show_name: Postdocs
   - list_name: grad
     show_name: Graduate Students
-  # - list_name: visiting_students
-  #   show_name: Visiting Students 
+  - list_name: visiting_students
+    show_name: Visiting Students 
   # - list_name: undergrads
   #   show_name: Undergrads
   - list_name: alumni
@@ -80,8 +80,11 @@ grad:
     image: profile_pics/Marfred.jpg
     content: people_bios/marfred_barrera.md
 
-# visiting_students:
-
+visiting_students:
+  - align: left
+    name: Farian Keck
+    image: profile_pics/farian.png
+    content: people_bios/farian_keck.md
 
 # undergrads:
 #   # - align: left
