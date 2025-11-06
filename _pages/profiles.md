@@ -111,6 +111,10 @@ alumni:
 
 robots:
   - align: left
+    name: Jeevan
+    image: robot_pics/jeevan.jpeg
+    content: robot_bios/jeevan.md
+  - align: left
     name: Milou
     image: robot_pics/milou.jpg
     content: robot_bios/milou.md
