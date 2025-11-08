@@ -91,13 +91,13 @@ visiting_students:
     image: profile_pics/farian.png
     content: people_bios/farian_keck.md
 
-# undergrads:
-#   # - align: left
-#   #   name: Fall 2025
-#   #   content: undergrad_lists/Fall_2025.md
-#   - align: left
-#     name: Summer 2025
-#     content: undergrad_lists/Summer_2025.md
+undergrads:
+  - align: left
+    name: Fall 2025
+    content: undergrad_lists/Fall_2025.md
+  - align: left
+    name: Summer 2025
+    content: undergrad_lists/Summer_2025.md
   
 
 alumni:
