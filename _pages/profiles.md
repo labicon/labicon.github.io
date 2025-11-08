@@ -53,7 +53,7 @@ grad:
   - align: left
     name: John Viljoen
     # web: https://kartik-nagpal.github.io/
-    image: profile_pics/john_viljoen.png
+    image: profile_pics/john_viljoen.jpg
     content: people_bios/john_viljoen.md
   - align: left
     name: Aayushi Shrivastava
