@@ -51,6 +51,11 @@ grad:
     image: profile_pics/Kartik-photo.png
     content: people_bios/kartik_nagpal.md
   - align: left
+    name: John Viljoen
+    # web: https://kartik-nagpal.github.io/
+    image: profile_pics/john_viljoen.png
+    content: people_bios/john_viljoen.md
+  - align: left
     name: Aayushi Shrivastava
     web: https://sites.google.com/view/aayushishrivastava/home
     image: profile_pics/Aayushi-photo.png

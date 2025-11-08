@@ -1,1 +1,1 @@
-John Viljoen is a PhD student.
+John Viljoen is a PhD student in Mechanical Engineering at UC Berkeley. He graduated with an MEng in Aerospace Engineering from the University of Bristol where he developed a background in high performance flight control systems. Now, his research is focused on the intersection of optimization-based and learning-based control systems applied to robotics.
