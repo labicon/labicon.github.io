@@ -37,7 +37,7 @@ faculty:
 grad:
   - align: left
     name: Maulik Bhatt
-    web: https://maulikbhatt.web.illinois.edu/
+    web: https://maulikb.com/
     image: profile_pics/MaulikBhatt.jpg
     content: people_bios/maulik_bhatt.md
   - align: left
