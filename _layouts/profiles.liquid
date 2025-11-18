@@ -7,8 +7,10 @@ layout: page
       {% for category in page.categories %}
         {% if category.list_name %}
           {% assign category_name = category.list_name %}
+        {% endif %}
         {% if category.show_name %}
           {% assign category_show = category.show_name %}
+        {% endif %}
         <h3>{{ category_show }}</h3>
         {% if page.[category_name] %}
           {% for profile in page.[category_name] %}
