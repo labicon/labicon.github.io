@@ -258,7 +258,7 @@ sass:
 jekyll-minifier:
   exclude: ["robots.txt"]
   uglifier_args:
-    harmony: true
+    harmony: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

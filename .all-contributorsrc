@@ -12,6 +12,13 @@
   "skipCi": true,
   "contributors": [
     {
+      "login": "kartik-nagpal",
+      "name": "Kartik Nagpal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22784228?v=4",
+      "profile": "https://kartik-nagpal.github.io/",
+      "contributions": ["code"]
+    },
+    {
       "login": "alshedivat",
       "name": "Maruan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2126561?v=4",
