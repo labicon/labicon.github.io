@@ -1,0 +1,1 @@
+Paul Teiletche is a visiting student in the Mechanical Engineering department at UC Berkeley. He is interested in reinforcement learning for multi-agent systems, with a particular focus on the use of generative models to improve these algorithms. He received his BSc in Communication Systems from EPFL, and is currently pursuing a MSc of Data Science from the same institution.
