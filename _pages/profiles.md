@@ -90,6 +90,10 @@ visiting_students:
     name: Farian Keck
     image: profile_pics/farian.png
     content: people_bios/farian_keck.md
+  - align: left
+    name: Paul Teiletche
+    image: profile_pics/paul.png
+    content: people_bios/paul_teiletche.md
 
 undergrads:
   - align: left
