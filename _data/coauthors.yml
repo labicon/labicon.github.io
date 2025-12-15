@@ -1,6 +1,10 @@
-"Nagpal":
+"nagpal":
   - firstname: ["Kartik", "K.", "K. N."]
     url: https://kartik-nagpal.github.io/
+
+"bhatt":
+  - firstname: ["Maulik", "M.", "M. B."]
+    url: https://maulikbhatt.github.io/
 
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
