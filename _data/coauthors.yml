@@ -4,8 +4,41 @@
 
 "bhatt":
   - firstname: ["Maulik", "M.", "M. B."]
-    url: https://maulikbhatt.github.io/
+    url: https://maulikb.com/
 
+"ryu":
+  - firstname: ["Kanghyun", "K.", "K. R."]
+    url: https://kh-ryu.github.io/
+
+# "viljoen":
+#   - firstname: ["John", "J.", "J. V."]
+
+"shrivastava":
+  - firstname: ["Aayushi", "A.", "A. S."]
+    url: https://sites.google.com/view/aayushishrivastava/home
+
+"dong":
+  - firstname: ["Dayi", "Ethan", "Dayi Ethan", "D. E.", "D.D."]
+    url: http://dayiethandong.com/
+
+"choi":
+  - firstname: ["Seoyeon", "S.", "S. C."]
+    url: https://n00nspr1ng.github.io/
+
+# "zhao":
+#   - firstname: ["Hongrui", "H.", "H. Z."]
+
+"park":
+  - firstname: ["Ryan", "R.", "R. P."]
+    url: https://ryanjpark03.github.io/
+
+"barrera":
+  - firstname: ["Marfred", "M.", "M. B."]
+    url: https://marfredbarrera.github.io/
+
+
+
+# EXAMPLE ENTRIES
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
