@@ -13,11 +13,11 @@ Thank you for your interest in our research! We are actively seeking motivated n
 
 Please review the following guidelines based on your current status:
 
-* Current UC Berkeley Undergraduates:
+<strong>Current UC Berkeley Undergraduates:</strong>
 If you are already a student at Berkeley and wish to join the lab, please <u><a href="https://forms.gle/mnma3Y8DgmGoNPW36">complete this application form</a></u> and feel free to send a brief follow-up email. We typically review applications and schedule in-person interviews with selected candidates on a rolling basis, and especially at the start of each semester.
 
-* Prospective Graduate Students:
+<strong>Prospective Graduate Students:</strong>
 Please apply through the formal UC Berkeley graduate admissions process. We look for self-motivated students with strong foundations in robotics, computer vision, and machine learning. You do not need to contact us directly at this stage; instead, please highlight your interest in our lab within your Statement of Purpose.
 
-* Postdoctoral Applicants, Visiting Scholars, & Research Interns:
-We have several openings for postdocs and long-term visiting positions (six months or more). We are currently updating our application system, and the specific forms for these roles will be posted here soon. In the meantime, please <u>email the PI, Negar Mehr, directly</u> with your CV, a cover letter, and a list of 3–5 references (or your research proposal for visiting positions) to express your interest.
+<strong>Postdoctoral Applicants, Visiting Scholars, & Research Interns:</strong>
+We are currently updating our application system, and the specific forms for these roles will be posted here soon. In the meantime, please <u>email the PI, Negar Mehr, directly</u> with your CV, a cover letter, and a list of 3–5 references (or your research proposal for visiting positions) to express your interest.
