@@ -3,7 +3,7 @@ layout: page
 permalink: /opportunities/
 title: opportunities
 description: Application guidelines to join the ICON Lab for undergraduate, graduate, and postdoctoral positions
-nav: false
+nav: true
 nav_order: 6
 ---
 
@@ -14,10 +14,10 @@ Thank you for your interest in our research! We are actively seeking motivated n
 Please review the following guidelines based on your current status:
 
 * Current UC Berkeley Undergraduates:
-If you are already a student at Berkeley and wish to join the lab, please <a href="https://forms.gle/mnma3Y8DgmGoNPW36"><strong>complete this application form</strong></a> and feel free to send a brief follow-up email. We typically review applications and schedule in-person interviews with selected candidates on a rolling basis, and especially at the start of each semester.
+If you are already a student at Berkeley and wish to join the lab, please <u><a href="https://forms.gle/mnma3Y8DgmGoNPW36"></u>complete this application form</strong></a> and feel free to send a brief follow-up email. We typically review applications and schedule in-person interviews with selected candidates on a rolling basis, and especially at the start of each semester.
 
 * Prospective Graduate Students:
 Please apply through the formal UC Berkeley graduate admissions process. We look for self-motivated students with strong foundations in robotics, computer vision, and machine learning. You do not need to contact us directly at this stage; instead, please highlight your interest in our lab within your Statement of Purpose.
 
 * Postdoctoral Applicants, Visiting Scholars, & Research Interns:
-We have several openings for postdocs and long-term visiting positions (six months or more). We are currently updating our application system, and the specific forms for these roles will be posted here soon. In the meantime, please <strong>email the PI, Negar Mehr, directly</strong> with your CV, a cover letter, and a list of 3–5 references (or your research proposal for visiting positions) to express your interest.
+We have several openings for postdocs and long-term visiting positions (six months or more). We are currently updating our application system, and the specific forms for these roles will be posted here soon. In the meantime, please <u>email the PI, Negar Mehr, directly</u> with your CV, a cover letter, and a list of 3–5 references (or your research proposal for visiting positions) to express your interest.
