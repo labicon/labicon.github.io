@@ -94,6 +94,10 @@ visiting_students:
     name: Paul Teiletche
     image: profile_pics/paul.png
     content: people_bios/paul_teiletche.md
+  - align: left
+    name: Adam Zinebi
+    image: profile_pics/adam.jpg
+    content: people_bios/adam_zinebi.md
 
 undergrads:
   - align: left
