@@ -9,6 +9,8 @@ nav_order: 7
 categories:
   - list_name: faculty
     show_name: Faculty
+  - list_name: postdoc
+    show_name: Postdocs
   - list_name: grad
     show_name: Graduate Students
   - list_name: visiting_students
@@ -19,9 +21,6 @@ categories:
     show_name: Alumni
   - list_name: robots
     show_name: Lab Robots
-  # - list_name: postdoc
-  #   show_name: Postdocs
-  
 
 faculty:
   - align: left
@@ -32,7 +31,13 @@ faculty:
     image_circular: false # crops the image to make it circular
     more_info:
 
-# postdoc:
+postdoc:
+  - align: left
+    name: Lasse Peters
+    web: https://lasse-peters.net/
+    image: profile_pics/lassepe.png
+    content: people_bios/lasse_peters.md
+    image_circular: false
 
 grad:
   - align: left
