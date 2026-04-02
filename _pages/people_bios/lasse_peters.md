@@ -1,0 +1,1 @@
+Lasse is a postdoctoral scholar in the Mechanical Engineering department at UC Berkeley. He is interested in data-efficient learning for multi-agent interaction. Prior to Berkeley, he completed his PhD at the Department of Cognitive Robotics at Delft University of Technology, where he wrote his dissertation on "Game-Theoretic Motion Planning for Multi-Agent Interaction".
