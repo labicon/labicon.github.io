@@ -14,7 +14,7 @@ categories:
   - list_name: grad
     show_name: Graduate Students
   - list_name: visiting_students
-    show_name: Visiting Students 
+    show_name: Visiting Students & Postdocs
   - list_name: undergrads
     show_name: Undergrads
   - list_name: alumni
@@ -103,6 +103,10 @@ visiting_students:
     name: Adam Zinebi
     image: profile_pics/adam.jpg
     content: people_bios/adam_zinebi.md
+- align: left
+    name: Fanta Camara
+    image: profile_pics/fanta.jpg
+    content: people_bios/fanta_camara.md
 
 undergrads:
   - align: left
