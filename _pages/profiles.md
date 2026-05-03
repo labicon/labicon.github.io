@@ -14,7 +14,7 @@ categories:
   - list_name: grad
     show_name: Graduate Students
   - list_name: visiting_students
-    show_name: Visiting Students & Postdocs
+    show_name: Visiting Students
   - list_name: undergrads
     show_name: Undergrads
   - list_name: alumni
