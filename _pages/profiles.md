@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 description:
 nav: true
-nav_order: 7
+nav_order: 6
 
 categories:
   - list_name: faculty
@@ -103,7 +103,7 @@ visiting_students:
     name: Adam Zinebi
     image: profile_pics/adam.jpg
     content: people_bios/adam_zinebi.md
-- align: left
+  - align: left
     name: Fanta Camara
     image: profile_pics/fanta.jpg
     content: people_bios/fanta_camara.md

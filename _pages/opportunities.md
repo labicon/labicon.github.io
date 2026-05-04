@@ -4,7 +4,7 @@ permalink: /opportunities/
 title: opportunities
 description: Application guidelines to join the ICON Lab for undergraduate, graduate, and postdoctoral positions
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 ## Join the <u>I</u>ntelligent <u>Con</u>trol Lab
