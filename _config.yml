@@ -423,6 +423,10 @@ leaflet:
   integrity:
     css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+# MathJax is vendored in assets/js/mathjax/ (not loaded from CDN).
+# To update: npm pack mathjax@<version>, then replace assets/js/mathjax/ with
+# the contents of the package's es5/ directory, removing the sre/, a11y/,
+# adaptors/ directories and all top-level bundle files except tex-mml-chtml.js.
 mathjax:
   version: "3.2.0"
 masonry:
