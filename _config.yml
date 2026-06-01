@@ -375,7 +375,7 @@ enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_math: false
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
@@ -423,12 +423,6 @@ leaflet:
   integrity:
     css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-# MathJax is vendored in assets/js/mathjax/ (not loaded from CDN).
-# To update: npm pack mathjax@<version>, then replace assets/js/mathjax/ with
-# the contents of the package's es5/ directory, removing the sre/, a11y/,
-# adaptors/ directories and all top-level bundle files except tex-mml-chtml.js.
-mathjax:
-  version: "3.2.0"
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
