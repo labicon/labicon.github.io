@@ -1,0 +1,1 @@
+Junwoo Chang is a PhD student in Mechanical Engineering at the University of California, Berkeley. He previously earned his Master's degree from Yonsei University, where he worked on equivariant reinforcement learning and generative models for robot learning. His current research interests lie in continual and adaptive learning for robotic agents.

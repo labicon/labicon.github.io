@@ -89,6 +89,11 @@ grad:
     web: https://marfredbarrera.github.io/
     image: profile_pics/Marfred.jpg
     content: people_bios/marfred_barrera.md
+  - align: left
+    name: Junwoo Chang
+    web: https://pranaboy72.github.io/
+    image: profile_pics/junwoo_chang.jpeg
+    content: people_bios/junwoo_chang.md
 
 visiting_students:
   - align: left
