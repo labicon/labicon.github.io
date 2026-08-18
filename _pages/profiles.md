@@ -94,6 +94,11 @@ grad:
     web: https://pranaboy72.github.io/
     image: profile_pics/junwoo_chang.jpeg
     content: people_bios/junwoo_chang.md
+  - align: left
+    name: Zhenlong Fang
+    web: https://zhenlong0808.github.io/
+    image: profile_pics/Zhenlong_Fang.jpg
+    content: people_bios/zhenlong_fang.md
 
 visiting_students:
   - align: left
