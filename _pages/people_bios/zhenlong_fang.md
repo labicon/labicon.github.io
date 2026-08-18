@@ -1,0 +1,1 @@
+Zhenlong is a Ph.D. student in the Mechanical Engineering department at UC Berkeley. He received his B.A. in Computer Science from the University of Minnesota. His research interests lie in humanoid loco-manipulation and robot generalization, with a focus on developing robots that can adapt to diverse tasks and operate robustly in complex real-world environments.
