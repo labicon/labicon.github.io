@@ -38,6 +38,10 @@ postdoc:
     image: profile_pics/lassepe.png
     content: people_bios/lasse_peters.md
     image_circular: false
+  - align: left
+    name: Hongrui Zhao
+    image: profile_pics/HongruiZhao.jpg
+    content: people_bios/Hongrui_Zhao.md
 
 grad:
   - align: left
@@ -75,10 +79,6 @@ grad:
     web: https://n00nspr1ng.github.io/
     image: profile_pics/Seoyeon.jpg
     content: people_bios/seoyeon_choi.md
-  - align: left
-    name: Hongrui Zhao
-    image: profile_pics/HongruiZhao.jpg
-    content: people_bios/Hongrui_Zhao.md
   - align: left
     name: Ryan Park
     web: https://ryanjpark03.github.io
