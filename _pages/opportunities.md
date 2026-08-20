@@ -14,7 +14,7 @@ Thank you for your interest in our research! We are actively seeking motivated n
 Please review the following guidelines based on your current status:
 
 <u>Current UC Berkeley Undergraduates:</u>
-If you are already a student at Berkeley and wish to join the lab, please <a href="https://forms.gle/mnma3Y8DgmGoNPW36">complete this application form</a> and feel free to send a brief follow-up email. We typically review applications and schedule in-person interviews with selected candidates on a rolling basis, and especially at the start of each semester.
+If you are already a student at Berkeley and wish to join the lab, please <a href="https://forms.gle/mnma3Y8DgmGoNPW36">complete this application form</a> and feel free to send a brief follow-up email to iconresearchlab@gmail.com and feel free to CC a graduate student you are potentially interested in working with. We typically review applications and schedule in-person interviews with selected candidates on a rolling basis, and especially at the start of each semester.
 
 <u>Prospective Graduate Students:</u>
 Please apply through the formal UC Berkeley graduate admissions process. We look for self-motivated students with strong foundations in robotics, control theory, optimization, computer vision, safe reinforcement learning, and machine learning. You do not need to contact us directly at this stage; instead, please highlight your interest in our lab within your Statement of Purpose.
