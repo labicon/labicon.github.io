@@ -45,11 +45,6 @@ postdoc:
 
 grad:
   - align: left
-    name: Maulik Bhatt
-    web: https://maulikb.com/
-    image: profile_pics/MaulikBhatt.jpg
-    content: people_bios/maulik_bhatt.md
-  - align: left
     name: Kanghyun Ryu
     web: https://kh-ryu.github.io/
     image: profile_pics/Kanghyun_Ryu.jpg
@@ -133,12 +128,18 @@ alumni:
     web: https://jean-baptistebouvier.github.io/
     # image: profile_pics/JB_pic.png
     content: people_bios/jb_bouvier.md
-  
   - align: left
     name: Antoine Bergerault, University of Zurich, 2025
     web: https://bergerault.fr
     # image: profile_pics/antoine.jpeg
     content: people_bios/antoine_bergerault.md
+  - align: left
+    name: Maulik Bhatt, Toyota, 2026
+    web: https://maulikb.com/
+    content: people_bios/maulik_bhatt_alumni.md
+  - align: left
+    name: Hongrui Zhao, ICON Lab, 2026
+    content: people_bios/hongrui_zhao_alumni.md
 
 
 robots:
