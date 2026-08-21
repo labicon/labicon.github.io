@@ -1,0 +1,1 @@
+Hongrui Zhao was a member of the lab working on multi-agent active perception using neural implicit representations. He received his M.S. in Aerospace Engineering from the University of Illinois Urbana-Champaign, where he worked on a star tracker for satellite navigation. Now, he is the postdoc in our lab!
