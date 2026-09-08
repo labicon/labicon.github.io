@@ -17,7 +17,8 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign research_projects = site.projects | where_exp: "project", "project.active_project != true" %}
+  {% assign categorized_projects = research_projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
@@ -41,7 +42,8 @@ horizontal: false
 
 <!-- Display projects without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign research_projects = site.projects | where_exp: "project", "project.active_project != true" %}
+{% assign sorted_projects = research_projects | sort: "importance" %}
 
   <!-- Generate cards for each project -->
 

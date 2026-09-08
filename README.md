@@ -200,6 +200,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Installing](#installing)
+  - [Previewing locally](#previewing-locally)
   - [Customizing](#customizing)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
@@ -232,6 +233,20 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 ## Installing
 
 For installation details please refer to [INSTALL.md](INSTALL.md).
+
+## Previewing locally
+
+On this Ubuntu machine, run `./scripts/preview-site.sh`, then open
+<http://localhost:8080/> (or a page such as <http://localhost:8080/projects/>).
+The first run may take a while to download and build the Docker image. Keep the
+terminal running while reviewing; ordinary content edits reload automatically.
+Press `Ctrl+C` to stop and clean up the preview container.
+
+If port 8080 is already in use, choose another local port, for example:
+
+```bash
+PREVIEW_PORT=8081 ./scripts/preview-site.sh
+```
 
 ## Customizing
 

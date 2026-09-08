@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="post active-project-detail">
+  <a class="project-back-link" href="{{ '/projects/' | relative_url }}">
+    <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> All active projects
+  </a>
+
+  <header class="post-header">
+    <p class="project-area">{{ page.research_area }}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <dl class="project-metadata">
+    <dt>Status</dt>
+    <dd>{{ page.status }}</dd>
+    <dt>Faculty lead</dt>
+    <dd>{{ page.faculty_lead }}</dd>
+    <dt>Student lead</dt>
+    <dd>{{ page.student_lead }}</dd>
+    {% if page.contributors and page.contributors.size > 0 %}
+      <dt>Contributors</dt>
+      <dd>{{ page.contributors | join: ", " }}</dd>
+    {% endif %}
+  </dl>
+
+  <article class="project-description">
+    {{ content }}
+  </article>
+
+  {% if page.project_url or page.code_url or page.paper_url %}
+    <div class="project-links" aria-label="Project links">
+      {% if page.project_url %}<a class="btn btn-outline-primary" href="{{ page.project_url }}">Project website</a>{% endif %}
+      {% if page.code_url %}<a class="btn btn-outline-primary" href="{{ page.code_url }}">Code</a>{% endif %}
+      {% if page.paper_url %}<a class="btn btn-outline-primary" href="{{ page.paper_url }}">Paper</a>{% endif %}
+    </div>
+  {% endif %}
+</div>
