@@ -156,13 +156,17 @@ robots:
     image: robot_pics/finot.jpg
     content: robot_bios/finot.md
   - align: left
-    name: Harry
-    image: robot_pics/harry.jpg
-    content: robot_bios/harry.md
+    name: Moe
+    image: robot_pics/moe.jpg
+    content: robot_bios/moe.md
   - align: left
     name: Larry
     image: robot_pics/larry.jpg
     content: robot_bios/larry.md
+  - align: left
+    name: Harry
+    image: robot_pics/harry.jpg
+    content: robot_bios/harry.md
   - align: left
     name: Goblin Glider
     image: robot_pics/goblin_glider.jpg
