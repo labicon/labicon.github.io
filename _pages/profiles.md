@@ -115,6 +115,12 @@ visiting_students:
 
 undergrads:
   - align: left
+    name: Summer 2026
+    content: undergrad_lists/Summer_2026.md
+  - align: left
+    name: Spring 2026
+    content: undergrad_lists/Spring_2026.md
+  - align: left
     name: Fall 2025
     content: undergrad_lists/Fall_2025.md
   - align: left
@@ -137,9 +143,9 @@ alumni:
     name: Maulik Bhatt, Toyota, 2026
     web: https://maulikb.com/
     content: people_bios/maulik_bhatt_alumni.md
-  - align: left
-    name: Hongrui Zhao, ICON Lab, 2026
-    content: people_bios/hongrui_zhao_alumni.md
+  # - align: left
+  #   name: Hongrui Zhao, ICON Lab, 2026
+  #   content: people_bios/hongrui_zhao_alumni.md
 
 
 robots:
