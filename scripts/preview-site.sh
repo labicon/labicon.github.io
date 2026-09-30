@@ -13,6 +13,7 @@ if [[ -e "${LOCK_FILE}" ]]; then
   lock_file_existed=true
   lock_file_backup="$(mktemp)"
   cp --preserve=mode,timestamps -- "${LOCK_FILE}" "${lock_file_backup}"
+  rm -f -- "${LOCK_FILE}"
 fi
 
 export PREVIEW_UID="$(id -u)"
