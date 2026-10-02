@@ -12,7 +12,8 @@ lock_file_backup=""
 if [[ -e "${LOCK_FILE}" ]]; then
   lock_file_existed=true
   lock_file_backup="$(mktemp)"
-  cp --preserve=mode,timestamps -- "${LOCK_FILE}" "${lock_file_backup}"
+  cp -p -- "${LOCK_FILE}" "${lock_file_backup}"
+  rm -f -- "${LOCK_FILE}"
 fi
 
 export PREVIEW_UID="$(id -u)"
@@ -29,7 +30,7 @@ cleanup() {
   fi
 
   if [[ "${lock_file_existed}" == true ]]; then
-    cp --preserve=mode,timestamps -- "${lock_file_backup}" "${LOCK_FILE}"
+    cp -p -- "${lock_file_backup}" "${LOCK_FILE}"
     rm -f -- "${lock_file_backup}"
   else
     rm -f -- "${LOCK_FILE}"
