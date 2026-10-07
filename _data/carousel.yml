@@ -1,4 +1,7 @@
 images:
+  - image: assets/img/carousel/2026-9-23_Group_Photo.jpg
+    label: "Fall 2026"
+
   - image: assets/img/carousel/2026-ICRA.jpg
     label: "ICRA 2026"
 
