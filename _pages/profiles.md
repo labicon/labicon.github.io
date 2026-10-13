@@ -61,7 +61,7 @@ grad:
     content: people_bios/john_viljoen.md
   - align: left
     name: Aayushi Shrivastava
-    web: https://sites.google.com/view/aayushishrivastava/home
+    web: https://aayushis196.github.io/
     image: profile_pics/Aayushi-photo.png
     content: people_bios/aayushi_shrivastava.md
   - align: left
